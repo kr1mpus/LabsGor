@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+body {
+    background-color: lightpink;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.cont2 {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.list {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 40px;
+}
+.forma {
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 700px;
+}
+.inputtext {
+    padding: 10px;
+    border: 0;
+    width: 250px;
+    height: 42px;
+}
+.buttons {
+    background-color: cyan;
+    padding: 10px 20px;
+    border: 0;
+    width: 140px;
+
+}
+.buttonsdel {
+    background-color: coral;
+    padding: 10px 20px;
+    border: 0;
+    width: 140px;
+}
+.tasks {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    height: 300px;
+    width: 500px;
+    
+}
+.buttontasks {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;    
+}
+
+.tasks2 {
+    background-color: rgb(183, 223, 228);
+    font-size: 22px;
+    padding: 20px 20px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+
+}
+.tasks2:hover {
+    background-color: rgb(161, 207, 238);
+}
+.tasks2 input {
+    margin-right: 10px;
+    background-color: transparent;
+}
+.label1 {
+    display: flex;
+    align-items: center;
+}
+.footer {
+    padding-top: 10px;
+    border-top: 1px solid #000;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
