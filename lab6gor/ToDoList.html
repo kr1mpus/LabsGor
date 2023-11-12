@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" type="image/x-icon" sizes="16x16" href="img/web.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ToDoList</title>
+
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="cont2">
+            <h1 class="list">Список дел</h1>
+            <form class="forma">
+                <input placeholder="Новый элемент списка" class="inputtext">
+                <button type="submit" class="buttons">Создать</button>
+                <button type="reset" class="buttonsdel">Очистить все</button>
+                <button type="button" class="filter-button">Фильтр</button>
+            </form>
+            <div class="tasks">
+                <!-- Динамически создаваемые задачи будут здесь -->
+            </div>
+            <div class="links">
+                <a href="#" class="done-link">Сделаны (<span class="done-count">0</span>)</a>
+                <a href="#" class="not-done-link">Не сделаны (<span class="not-done-count">0</span>)</a>
+                <a href="#" class="all-link">Все (<span class="all-count">0</span>)</a>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <h2>Copyright©</h2>
+    </footer>
+</body>
+</html>
